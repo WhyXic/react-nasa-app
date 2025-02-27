@@ -48,6 +48,7 @@ footer {
   justify-content: space-between;
   gap: 1rem;
   padding: 1rem;
+  flex-direction: column;
 }
 
 footer div {
@@ -104,7 +105,7 @@ footer button:hover {
   opacity: 0.6;
 }
 
-.sidebarContent {
+.sidebarContents {
   z-index: 15;
   position: relative;
   display: flex;
